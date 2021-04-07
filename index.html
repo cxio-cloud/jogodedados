@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Jogo de dados </title>
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <h1> Jogo de dados </h1>
+        <section>
+            <div id="dados">
+                <p id="total1">Total:</p><p id="totalp">10</p>
+                <img src="imagem/dado0.png" id="dado1"/>
+                <p id="total2">Total:</p><p id="totalp2">10</p>
+                <img src="imagem/dado0.png" id="dado2"/>
+                <p id="jog1">Jogador 1</p>
+                <p id="jog2">Jogador 2</p>
+            </div>
+            <div id="res">
+                <p id="result"></p>
+                <input id="jogarId" type="button" name="jogar" onclick="jogar()" value="Iniciar"/>
+                <input id="reset" type="button" name="reiniciarbtn" onclick="reiniciar()" value="Reiniciar jogo">
+                <input id="regisId" type="button" name="registrar" onclick="Registrar()" value="Cadastro"/>
+            </div>
+        </section>
+        <div id="cadastro">
+            <form>
+                <input type="radio" id="play1" name="jogadores" value="player1"/>
+                <label for="male">Jogador 1</label>
+                <input type="radio" id="play2" name="jogadores" value="play2"/>
+                <label for="female">Jogador 2</label><br/>
+                <br/>
+                    <div id="inputs">
+                        Nick: <input type="text" name="nickname" id="nick1" placeholder="Digite seu nick"/><br/>
+                        Idade: <input id="idade" type="number" name="idade" placeholder="Idade">
+                    </div>
+                    <div id="botao">
+                        <input type="button" name="btn-registrar" id="cadas" value="Efetuar cadastro" onclick="cadastrar()"/>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>

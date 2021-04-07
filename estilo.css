@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-style: normal
+}
+body {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-family: monospace;
+} 
+h1 {
+    color: black;
+    font: normal 40pt monospace;
+    position: center;
+}
+section {
+    position: absolute;
+    left: 610px;
+    float: left;
+    background-color: #fff;
+    border-radius: 24px;
+    width: 700px;
+    height: 620px;
+} 
+div#dados {
+    position: relative;
+    height: 400px;
+    width: 700px;
+}
+div#res {
+    position: relative;
+    height: 350px;
+    text-align: center;
+}
+div#cadastro {
+    position: absolute;
+    bottom: 370px;
+    right: 650px;
+    width: 340px;
+    background-color: #fff;
+    border-radius: 24px;
+    font-family: monospace;
+    display: none;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+img#dado1 {
+    position: relative;
+    float: left;
+    top: 60px;
+    left: 100px;
+}
+img#dado2 {
+    position: relative;
+    float: right;
+    top: 350px;
+    right: 397px;
+}
+p#jog1 {
+    position: absolute;
+    top: 5px;
+    left: 148px;
+    border-radius: 3px;
+    width: 130px;
+    font-family: monospace;
+    
+}
+p#jog2 {
+    position: absolute;
+    top: 280px;
+    right: 428px;
+    border-radius: 3px;
+    width: 130px;
+    font-family: monospace;
+}
+p#result {
+    position: absolute;
+    bottom: 140px;
+    left: 180px;
+    font-size: 3rem;
+    color: red;
+    
+}
+p#total1 {
+    position: absolute;
+    top: 30px;
+    left: 155px;
+    font-family: monospace;
+}
+p#total2 {
+    position: absolute;
+    top: 305px;
+    right: 465px;
+    font-family: monospace;
+}
+p#totalp {
+    position: absolute;
+    top: 30px;
+    left: 240px;
+}
+p#totalp2 {
+    position: absolute;
+    top: 305px;
+    right: 438px;
+}
+input#regisId, #jogarId, #reset {   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333; 
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:100px;
+}
+input#reset {
+    position: absolute;
+    left: 400px;
+    top: -360px;
+    font-size: 1em;
+    width: 180px
+}
+input#regisId {
+    position: absolute;
+    top: -150px;
+    right: 147px;
+    width: 120px;
+    font-size: 1em;
+}
+input#jogarId {
+    position: absolute;
+    left: 440px;
+    top: -250px;
+    font-size: 1em;
+}
+input#nick1 {
+    font-size: 0.6em
+}
+input#cadas {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 0.7em
+}
+input#idade {
+    width: 70px;
+    font-size: 0.6em
+}
